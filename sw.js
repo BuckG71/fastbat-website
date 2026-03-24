@@ -1,4 +1,4 @@
-const CACHE_NAME = 'fastbat-v1';
+const CACHE_NAME = 'fastbat-v2';
 const STATIC_ASSETS = [
   '/',
   '/index.html',

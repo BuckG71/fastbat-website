@@ -78,6 +78,8 @@ section { padding-top: var(--nav-h); }
 .doc-list { list-style: none; margin-top: 0.85rem; }
 .doc-list li { padding: 0.6rem 0; border-bottom: 1px solid var(--gray-light); display: flex; align-items: center; gap: 0.7rem; font-size: 0.86rem; color: var(--gray-dark); }
 .doc-list li:last-child { border-bottom: none; }
+.doc-list a { color: var(--maroon); text-decoration: none; font-weight: 500; transition: color 0.2s; }
+.doc-list a:hover { color: var(--maroon-dark); text-decoration: underline; }
 .dot { width: 5px; height: 5px; border-radius: 50%; background: var(--maroon); flex-shrink: 0; }
 
 /* SCHEDULE */
